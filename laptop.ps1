@@ -76,10 +76,21 @@ $mcafee = gci "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Unins
 if ($mcafee) {
     $mcafee = $mcafee.UninstallString -Replace "C:\Program Files\McAfee\MSC\mcuihost.exe",""
     Write "Uninstalling McAfee..."
-    start-process "C:\Program Files\McAfee\MSC\mcuihost.exe" -arg "$mcafee" -Wait
+    start-process "C:\Program Files\McAfee\MSC\mcuihost.exe" -arg "$mcagfee" -Wait
 }
 
 # Install apps
+cinst 7zip.install
+cinst bleachbit
+cinst firefox
+cinst keepassxc
+cinst libreoffice-fresh
+cinst notepadplusplus.install
+cinst spotify
+cinst steelseries-engine
+cinst cloudstation
+cinst vlc
+cinst microsoft-windows-terminal
 
 # Rename the computer name
 $computername = "kemurdbhian"

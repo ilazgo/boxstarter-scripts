@@ -10,7 +10,7 @@ Disable-InternetExplorerESC
 Disable-BingSearch
 Enable-RemoteDesktop
 Set-WindowsExplorerOptions -EnableShowFileExtensions
-Set-BoxstarterTaskbarOptions -Size Small -Dock Bottom -Combine Always -Lock
+#Set-BoxstarterTaskbarOptions -Size Small -Dock Bottom -Combine Always -Lock
 
 # Uninstall bloatware
 Get-AppxPackage -AllUsers *Office* | Remove-AppxPackage

@@ -6,6 +6,7 @@ Just my bostarter scripts to set up different Windows Machines. The idea is to u
 
 Installing boxstarter.
 ``` PowerShell
+Set-ExecutionPolicy Unrestricted
 . { iwr -useb https://boxstarter.org/bootstrapper.ps1 } | iex; Get-Boxstarter -Force
 ```
 

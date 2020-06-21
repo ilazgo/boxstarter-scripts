@@ -87,6 +87,7 @@ cinst keepassxc
 cinst libreoffice-fresh
 cinst notepadplusplus.install
 #cinst spotify
+cinst sumatrapdf.install
 cinst steelseries-engine
 cinst cloudstation
 cinst vlc
